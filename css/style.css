@@ -1,0 +1,287 @@
+html, body {
+	overflow-x: hidden;
+}
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+	background: url(../images/white-bg.png);
+}
+a {
+	text-decoration: none;
+}
+/* Alert for Backend Cookie */
+.alert-custom {
+	background: #333333;
+	color: #FFF;
+	text-align: center;
+	padding: 0;
+	min-height: 50px;
+	vertical-align: middle;
+}
+.top_alert_btn {
+	padding: 15px 30px;
+	color: #fff;
+	transition: .5s ease;
+}
+.top_alert_btn:hover {
+	color: #CFF;
+	background-color: #282923;
+}
+.alert_btn_border {
+	border-right: 1px solid #535353;
+	border-left: 1px solid #535353;
+	min-height: 50px;
+	vertical-align: middle;
+	margin-left: 50px;
+}
+/* Alert for Backend Cookie */
+/* Header Section Starts Here */
+.custom-navbar {
+	padding-bottom: 0;
+}
+.custom-nav li a {
+	padding: 0!important;
+}
+.custom-nav select {
+	margin-right: 5px;
+}
+.custom-brand img {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+	width: 7%;
+}
+/* Header Section Ends Here */
+/* Booking Banner Starts Here */
+.banner {
+	background-image: url(../images/booking-banner-bg.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	color: #FFF;
+}
+.banner_artwork {
+	margin-top: 60px;
+}
+.banner_texts {
+	margin-top: -60px;
+}
+.banner_texts h3 {
+	font-size: 30px;
+	font-weight: 700;
+}
+.booking_activity_btn {
+	padding: 20px 25px;
+	color: #FFF;
+	background-color: #BB1F24;
+	font-size: 40px;
+	letter-spacing: 3px;
+	font-weight: 700;
+	transition: .5s ease;
+}
+.booking_activity_btn:hover {
+	color: #87EDFF;
+	text-decoration: none;
+}
+/* Booking Banner Ends Here */
+/* Booking Process Section Starts Here */
+.process {
+	padding: 30px 0;
+}
+.process_content h1 {
+	font-weight: 700;
+	font-size: 40px;
+	letter-spacing: 2px;
+}
+.process_content p {
+	font-weight: 300;
+	font-size: 20px;
+}
+/* Booking Process Section Ends Here */
+/* Heading Section */
+.heading {
+	background-image: url(../images/booking-heading-bg.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	color: #FFF;
+	padding: 50px 0;
+	margin-bottom: 50px;
+}
+.heading h1 {
+	font-weight: 700;
+	font-size: 50px;
+	letter-spacing: 5px;
+	margin: 0;
+}
+/* Heading Section */
+/* Workflow Section Starts Here */
+.workflow_content h1 {
+	font-weight: 700;
+	color: #BE0000;
+	font-size: 45px;
+	letter-spacing: 3px;
+}
+.workflow_content p {
+	font-size: 24px;
+	font-weight: 400;
+	margin: 0;
+}
+.workflow_sub_content {
+	margin-top: 30px;
+}
+.workflow_sub_content img {
+	width: 40%;
+}
+.workflow_sub_content h3 {
+	font-weight: 700;
+}
+.workflow_compare {
+	background-image: url(../images/booking-layer-bg-1.png);
+	background-position: top center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 100%;
+	padding: 110px 0;
+	padding-top: 70px;
+}
+.workflow_image img {
+	width: 100%;
+}
+.for_top_margin-minus {
+	margin-top: -90px;
+}
+.workflow_confirm {
+	background-image: url(../images/booking-layer-bg-2.png);
+	background-position: top center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 100%;
+	padding: 150px 0;
+	padding-top: 70px;
+}
+.for_top_margin {
+	margin-top: 70px;
+}
+.workflow_feedback {
+	background-image: url(../images/booking-layer-bg-3.png);
+	background-position: top center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding: 70px 0;
+	padding-bottom: 30px;
+}
+/* Workflow Section Ends Here */
+/* Community Section Starts Here */
+.community {
+	margin-top: -80px;
+	padding-bottom: 40px;
+}
+.community_content h3 {
+	font-weight: 700;
+}
+.community_content p {
+	font-weight: 400;
+	font-size: 24px;
+}
+.global_community_content {
+	margin-top: 30px;
+}
+.global_community_content h3 {
+	font-weight: 700;
+	color: #BE2D31;
+}
+.global_community_content p {
+	font-weight: 400;
+	font-size: 24px;
+}
+/* Community Section Ends Here */
+/* Support Section Starts Here */
+.for_bg {
+	background-image: url(../images/booking-layer-bg-4.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+.support {
+	padding-bottom: 100px;
+}
+.support_content h3 {
+	font-weight: 700;
+	color: #BE2D31;
+}
+.support_content p {
+	font-weight: 400;
+	font-size: 24px;
+}
+.support_image {
+	margin-top: -150px;
+}
+.contact_contents {
+	margin: 5px 0;
+}
+.contact_contents h4 {
+	font-weight: 700;
+	font-size: 24px;
+}
+/* Support Section Ends Here */
+
+hr {
+	border: 20px solid #E1D4B2;
+	margin: 0;
+}
+/* Footer Section Starts Here */
+footer {
+	background-color: #1C3337;
+	padding: 40px 0;
+	color: #909FA1;
+}
+footer a {
+	color: #909FA1;
+	transition: .5s ease;
+}
+footer a:hover {
+	color: #909FA1;
+}
+.footer_about h2 {
+	font-size: 24px;
+	font-weight: 400;
+}
+.footer_about p {
+	font-size: 15px;
+	font-weight: 300;
+}
+.footer_about a, h5, li {
+	font-size: 15px;
+}
+.download_app {
+	margin-top: 15px;
+}
+.download_app a {
+	margin: 10px auto;
+}
+.footer_select {
+	width: 100%;
+	background: transparent;
+	-moz-background: transparent;
+	-o-background: transparent;
+	-webkit-background: transparent;
+	color: #909FA1;
+	padding: 5px 0;
+	margin-bottom: 5px;
+	font-weight: 300;
+}
+.footer_social_icons a {
+	padding: 0;
+}
+.payment_gateways_icon li {
+	padding: 0;
+	margin: 0!important;
+}
+/* Footer Section Ends Here */
